@@ -11,3 +11,23 @@ body {
     margin-right: 10px;
 }
 
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+ul li {
+	padding: 1em;
+}
+
+#score {
+	font-size: 20px;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+h3 {
+	margin-top: 0;
+}
