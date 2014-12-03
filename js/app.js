@@ -24,6 +24,7 @@ angular.module('ajax-challenge', ['ui.bootstrap'])
 
     // The POST Request
     $scope.addComment = function(){
+      $scope.refreshComments();
       $scope.inserting = true;
       $http.post(commentsUrl, $scope.newComment)
         .success(function(responseData){
